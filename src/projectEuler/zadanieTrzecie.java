@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class zadanieTrzecie {
 
 	public static void main(String[] args) {
-		System.out.println((czyJestLiczbaPierwsza(new BigInteger("24"))));
+//		System.out.println((czyJestLiczbaPierwsza(new BigInteger("24"))));
 		wyswietlPodzielniki(24);
 
 	}
@@ -24,7 +24,7 @@ public class zadanieTrzecie {
 	}
 
 	public static void wyswietlPodzielniki(int liczba) {
-		int i;
+		int i = 1;
 		for (i = 1; i <= liczba; i++) {
 			if (liczba % i == 0) {
 				System.out.println(i + "");
