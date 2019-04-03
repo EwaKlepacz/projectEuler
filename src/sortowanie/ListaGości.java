@@ -172,7 +172,7 @@ public class ListaGości {
 		Goscie ciocia16 = new Goscie("Justyna Winiarczyk", 56, 56, false, false, false);
 		Goscie ostow19 = new Goscie("Os Tow Jus", 56, 56, false, false, false);
 List<Goscie> listagosci = new LinkedList <>();
-listagosci.addAll(0, );
+listagosci.addAll
 System.out.println(listagosci);
 
 
